@@ -1,0 +1,39 @@
+.speedDial {
+  position: fixed;
+  right: 2vmax;
+  top: 4.5vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+.SearchCartProfile {
+  /* position: fixed; */
+  position: absolute;
+  top: 20px;
+  right: 32px;
+}
+.iconspadding {
+  padding: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .speedDial {
+    right: 2.2vmax;
+    top: 7.5vmax;
+  }
+
+  .SearchCartProfile {
+    /* position: fixed; */
+    position: absolute;
+    top: 18px;
+    right: 12px;
+  }
+  
+  .iconspadding {
+    padding: 3px;
+  }
+}

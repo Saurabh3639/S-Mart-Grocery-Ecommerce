@@ -1,0 +1,55 @@
+.contactContainer {
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  /* display: grid; */
+  place-items: center;
+  background-color: white;
+  position: fixed;
+}
+
+.contactSectionContainer {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-color: #9CDE9F;
+  width: 50vw;
+  height: 80vh;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: -10px 10px 10px rgb(0 0 0 / 19%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.top-padding {
+  padding-top: 5%;
+}
+
+.container {
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 15%;
+  font: 200 1.4vmax "Roboto";
+  cursor: pointer;
+}
+
+.mailBtn {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .contactSectionContainer {
+    width: auto;
+    height: auto;
+  }
+  .container {
+    padding-left: 8%;
+    padding-right: 8%;
+    font: 200 2.3vmax "Roboto";
+  }
+}
