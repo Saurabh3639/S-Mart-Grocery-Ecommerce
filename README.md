@@ -1,4 +1,4 @@
-# S-Mart-Grocery-Ecommerce
+# S-Mart-Grocery-Ecommerce React.js App
 This is the MERN Stack grocery ecommerce application
 
 # 1) Working on Backend
