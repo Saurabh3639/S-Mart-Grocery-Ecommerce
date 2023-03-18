@@ -1,5 +1,5 @@
-# S-Mart-Grocery-Ecommerce
-> This is the MERN Stack grocery ecommerce application.   
+# S-Mart Grocery Ecommerce (MERN)
+> This is the Full Stack React Grocery Ecommerce Application.   
 
 ### 1) Working on Backend
 ```
